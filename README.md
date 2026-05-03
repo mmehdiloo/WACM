@@ -7,14 +7,14 @@ M. Mehdiloo & K. Kerstens (2026). Weak Axiom of Cost Minimization and Cost Funct
 
 ## Data source
 
-We utilize a secondary data set of US banking data initially used in \citet{Aly1990}.  
+We utilize a secondary data set of US banking data initially used in Aly, Grabowski, Pasurka, and Rangan (1990).  
 There are **322 observations** for the year 1986, with:
 
 - 3 inputs  
 - 5 outputs  
 - 3 input prices  
 
-For further details and descriptive statistics, see Table 1 in \citet{Aly1990}.
+For further details and descriptive statistics, see Table 1 in Aly et al. (1990).
 
 ## Repository contents
 

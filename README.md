@@ -1,9 +1,7 @@
 # WACM PROJECT
 # Empirical illustration: US banking data (1986)
 
-This repository contains the GAMS code and data required to reproduce the empirical illustration in our paper:
-
-M. Mehdiloo & K. Kerstens (2026). Weak Axiom of Cost Minimization and Cost Functions on Technologies with Various Convexity Assumptions. Submitted to Operations Research
+This repository contains the GAMS code and data required to reproduce the empirical illustration in Mehdiloo & Kerstens (2026).
 
 ## Data source
 
@@ -61,6 +59,8 @@ If you use this code or data, please cite:
 ## Reference
 
 Aly, H., Grabowski, R., Pasurka, C., and Rangan, N. (1990). Technical, scale, and allocative efficiencies in U.S. banking: An empirical investigation. *Review of Economics and Statistics*, 72(2):211–218.
+
+M. Mehdiloo & K. Kerstens (2026). Weak Axiom of Cost Minimization and Cost Functions on Technologies with Various Convexity Assumptions. Submitted to Operations Research.
 
 ## Contact
 

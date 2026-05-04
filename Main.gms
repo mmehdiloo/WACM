@@ -16,6 +16,7 @@ Parameters
     XX(i)
     YY(r)
     PP(i)
+    D(L,j)
     WACM(j)
     CIS(j);
 
@@ -25,7 +26,10 @@ $Load X, P, Y
 $Gdxin
 
 Scalar
-    BigM /1000000/;
+    BigM /1000000/
+    solveStart /0/
+    solve_wacm /0/
+    solve_CIS  /0/;
 
 Positive variables
     Lambda(j)
@@ -63,15 +67,6 @@ Model COSmodel  /Con_obj, Con_COS_I,  Con_O, Con_COS_M1, Con_COS_M2, Con_norm/
 *****************************************************************
 File code /mincost.txt/;
 Put  code;
-
-Parameter
-    D(L,j)
-    b(j,r);
-
-Scalar
-    solveStart /0/
-    solve_wacm /0/
-    solve_CIS  /0/;
 
 solveStart = TimeElapsed;
 Loop(L,
@@ -122,4 +117,4 @@ Loop(L,
     );
 Put'-----------------------------------------------------------------'/;
 
-Display solve_wacm,solve_CIS;
+Display solve_wacm,solve_CIS;s

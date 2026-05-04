@@ -101,6 +101,7 @@ Loop(L,
        YY(r) = Y(L,r);
 
        Solve ConvModel using LP minimizing Theta;
+         Option LP = CPLEX;
          Put Theta.L:15:3;
 
        Option optcr=0;

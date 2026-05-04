@@ -47,11 +47,11 @@ Equations
 
      Con_obj_COS..     Theta =E= Sum(i, PP(i)*v(i));
        Con_COS_I(k,i)..             delta(k) * X(k,i) =L= v(i);
-       Con_COS_O(r)..        Sum(j, lambda(j)*Y(j,r)) =g= YY(r);
+       Con_COS_O(r)..        Sum(j, Lambda(j)*Y(j,r)) =g= YY(r);
        Con_COS_3(k)..              Delta(k) =L= BigM*Lambda(k);
        Con_COS_4(k)..        BigM*Lambda(k) =L= BigM*Delta(k);
        Con_COS_5..           Sum(j, Lambda(j)) =E= 1;
-       Con_Conv_I(i)..       Sum(j, lambda(j)*X(j,i)) =L= v(i);
+       Con_Conv_I(i)..       Sum(j, Lambda(j)*X(j,i)) =L= v(i);
 
 Model COSmodel  /Con_obj_COS, Con_COS_I,  Con_COS_O, Con_COS_3, Con_COS_4, Con_COS_5/
       ConvModel /Con_obj_COS, Con_Conv_I, Con_COS_O, Con_COS_5 /;

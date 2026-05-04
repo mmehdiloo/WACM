@@ -46,7 +46,7 @@ Equations
        Con_Conv_I;
 
      Con_obj_COS..     Theta =E= Sum(i, PP(i)*v(i));
-       Con_COS_I(k,i)..             delta(k) * X(k,i) =L= v(i);
+       Con_COS_I(k,i)..             Delta(k) * X(k,i) =L= v(i);
        Con_COS_O(r)..        Sum(j, Lambda(j)*Y(j,r)) =g= YY(r);
        Con_COS_3(k)..              Delta(k) =L= BigM*Lambda(k);
        Con_COS_4(k)..        BigM*Lambda(k) =L= BigM*Delta(k);

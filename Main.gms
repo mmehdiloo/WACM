@@ -23,7 +23,7 @@ $Gdxin BankData1990.gdx
 $Load X, P, Y
 $Gdxin
 
-BigM=1000000;
+BigM = 1000000;
 
 Positive variables
     Lambda(j)

@@ -2,21 +2,21 @@
 ** m.mehdiloozad@gmail.com
 
 Sets
-      j   DMUs Numbers.    /j1*j322/
-      i   Input Numbers.   /i1*i3/
-      r   Output Numbers.  /r1*r5/;
+    j   DMUs Numbers.    /j1*j322/
+    i   Input Numbers.   /i1*i3/
+    r   Output Numbers.  /r1*r5/;
 
 Alias(j,l);
 Alias(j,k);
 
 Parameters
-        X(j,i)
-        Y(j,r)
-        P(j,i)
-        XX(i)
-        YY(r)
-        PP(i)
-        BigM;
+    X(j,i)
+    Y(j,r)
+    P(j,i)
+    XX(i)
+    YY(r)
+    PP(i)
+    BigM;
 
 $Call gdxxrw I=C:\BankData1990.xls  Par=X Rng=A1:D323 Rdim=1 Cdim=1  Par=P Rng=F1:I323 Rdim=1 Cdim=1  Par=Y Rng=K1:P323 Rdim=1 Cdim=1
 $Gdxin BankData1990.gdx

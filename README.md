@@ -57,7 +57,7 @@ If you use this code or data, please cite:
 - Our paper: Mehdiloo & Kerstens (2026)
 - Aly et al. (1990) for the original data
 
-## Reference
+## References
 
 Aly, H., Grabowski, R., Pasurka, C., and Rangan, N. (1990). Technical, scale, and allocative efficiencies in U.S. banking: An empirical investigation. *Review of Economics and Statistics*, 72(2):211–218.
 

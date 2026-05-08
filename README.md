@@ -1,4 +1,4 @@
-# WACM PROJECT
+# WACM [Weak Axiom of Cost Minimization]
 # Empirical illustration: US banking data (1986)
 
 This repository contains the GAMS code and data required to reproduce the empirical illustration in Mehdiloo & Kerstens (2026).
@@ -61,6 +61,27 @@ If you use this code or data, please cite:
 Aly, H., Grabowski, R., Pasurka, C., and Rangan, N. (1990). Technical, scale, and allocative efficiencies in U.S. banking: An empirical investigation. *Review of Economics and Statistics*, 72(2):211–218.
 
 Mehdiloo, M., and Kerstens, K. (2026). Weak Axiom of Cost Minimization and Cost Functions on Technologies with Various Convexity Assumptions. Submitted to *Operations Research*.
+
+---
+
+## Appendix: Statistical testing (Li-test)
+
+After obtaining the summary statistics in `mincost.xlsx`, we perform a nonparametric test proposed by Li (1996): Fan and Ullah (1999) and Li et al. (2009), among others, offer refinements. This nonparametric test focuses on differences between entire distributions of two cost function estimates.
+
+The test is conducted using external software:
+
+1. **MATLAB** (R2018b or later) is required.
+2. We use the `litest2009` function from the **DEAUtils** repository by kepiej.
+   - Repository: [https://github.com/kepiej/DEAUtils](https://github.com/kepiej/DEAUtils)
+
+**Procedure:**
+- Minimum cost values for each group are extracted from `mincost.xlsx`.
+- The `litest2009` function is run with 2000 bootstrap replications.
+
+**References for the Li-test:**
+- Li, Q. (1996). Nonparametric testing of closeness between two unknown distribution functions. *Econometric Reviews*, 15(3), 261-274.
+- Fan, Y., & Ullah, A. (1999). On goodness-of-fit tests for weakly dependent processes using kernel method. *Journal of Nonparametric Statistics*, 11(1-3), 337-360.
+- Li, Q., Maasoumi, E., & Racine, J. S. (2009). A nonparametric test for equality of distributions with mixed categorical and continuous data. *Journal of Econometrics*, 148(2), 186-200.
 
 ## Contact
 

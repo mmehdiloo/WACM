@@ -1,4 +1,5 @@
-# WACM [Weak Axiom of Cost Minimization]
+# WACM: Weak Axiom of Cost Minimization
+
 # Empirical illustration: US banking data (1986)
 
 This repository contains the GAMS code and data required to reproduce the empirical illustration in Mehdiloo & Kerstens (2026).

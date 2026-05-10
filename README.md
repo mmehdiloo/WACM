@@ -76,8 +76,11 @@ The test is conducted using external software:
    - Repository: [https://github.com/kepiej/DEAUtils](https://github.com/kepiej/DEAUtils)
 
 **Procedure:**
-- Minimum cost values for each group are extracted from `mincost.xlsx`.
+- Minimum cost values for each group are extracted from `mincost.xlsx` and copied in ASCII file `Aly_etal-Table-April2024.txt`.
 - The `litest2009` function is run with 2000 bootstrap replications.
+- Matlab files: 
+1/ `Li_Test_Aly_etal-1990-April2024.m` yields Marlab output file `Li-test-Aly_etal-results - April2024.txt`.
+2/ `Li_Test_Aly_etal-1990-April2024 - Compare to C.m` yields Marlab output file `Li-test-Aly_etal-results - Compare to C- April2024.txt`.
 
 **References for the Li-test:**
 - Li, Q. (1996). Nonparametric testing of closeness between two unknown distribution functions. *Econometric Reviews*, 15(3), 261-274.
